@@ -1,0 +1,94 @@
+@font-face {
+    font-family: "Prompt";
+    src:
+            url("../fonts/prompt-regular.ttf");
+}
+
+:root{
+    --color-primary: #DCD2CA;
+    --color-secondary: #000000;
+    --text-color-button: #DCD2CA;
+    --text-color: #000000;
+    --color-felder: #B1A9A3;
+    --color-button: #D64519;
+    --global-max-width: 1200px;
+    --text-color-header-and-footer: #DCD2CA;
+}
+
+[data-theme="dark"]{
+    --color-primary: #7E756F;
+    --color-secondary: #000000;
+    --text-color-button: #DCD2CA;
+    --text-color: #DCD2CA;
+    --color-felder: #413A36;
+    --color-button: #D64519;
+    --global-max-width: 1200px;
+    --text-color-header-and-footer: #DCD2CA;
+}
+
+*{
+    margin: 0 ;
+    padding: 0 ;
+}
+
+.hauptnav{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    background-size: cover;
+    height: 80px;
+    margin: 0 ;
+    padding: 15px;
+    a{
+        font-family: Prompt;
+        color: var(--text-color-header-and-footer);
+    }
+
+    img{
+        width: 65px;
+    }
+
+    ul{
+        list-style-type: none;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        padding: 150px;
+        width: 100%;
+    }
+}
+
+.headerbild{
+    h1{
+        font-family: Impact, sans-serif;
+    }
+    font-size: 150px;
+    h2{
+        font-family: Impact;
+    }
+    h3{
+        font-family: Prompt;
+    }
+
+}
+
+body{
+    background-color:var(--color-primary);
+
+}
+
+header{
+    background-color: var(--color-secondary);
+
+}
+
+main{
+
+}
+
+
+footer{
+
+}
